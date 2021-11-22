@@ -1,0 +1,10 @@
+rm(list=ls())
+
+setwd("
+
+all.web.info <- list(web.name=as.character(web.info1[i,2]),
+                         species.names=as.character(species.masses[[i]][,1]),
+                         size.units <- c("length"),
+                         species.sizes=species.masses[[i]][,2],
+                         species.abundance=NA,
+                         predation.matrix=web.matrix[[i]])
