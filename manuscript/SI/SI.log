@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.19)  21 NOV 2021 23:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.19)  29 NOV 2021 18:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -861,34 +861,34 @@ l.329
 File: fig/Benguela_Pelagic_pred_mat.png Graphic file (type png)
 <use fig/Benguela_Pelagic_pred_mat.png>
 Package pdftex.def Info: fig/Benguela_Pelagic_pred_mat.png  used on input line 
-335.
+338.
 (pdftex.def)             Requested size: 301.05075pt x 418.12604pt.
 [5]
 <fig/Broadstone_Stream_pred_mat.png, id=64, 5420.25pt x 7528.125pt>
 File: fig/Broadstone_Stream_pred_mat.png Graphic file (type png)
 <use fig/Broadstone_Stream_pred_mat.png>
 Package pdftex.def Info: fig/Broadstone_Stream_pred_mat.png  used on input line
- 344.
+ 347.
 (pdftex.def)             Requested size: 301.05075pt x 418.12604pt.
 [6pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) 
 has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.350 
+l.353 
        <./fig/Benguela_Pelagic_pred_mat.png>]
 <fig/Broadstone_Stream_size_agg_pred_mat.png, id=71, 5420.25pt x 7528.125pt>
 File: fig/Broadstone_Stream_size_agg_pred_mat.png Graphic file (type png)
 <use fig/Broadstone_Stream_size_agg_pred_mat.png>
 Package pdftex.def Info: fig/Broadstone_Stream_size_agg_pred_mat.png  used on i
-nput line 353.
+nput line 356.
 (pdftex.def)             Requested size: 301.05075pt x 418.12604pt.
 [7pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) 
 has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.359 
+l.362 
        <./fig/Broadstone_Stream_pred_mat.png>]
 <../../results/rejection/Broom/rN=1000_tol=0.95_TSS_lower_a/pred_mat.png, id=79
 , 5420.25pt x 7528.125pt>
@@ -896,14 +896,14 @@ File: ../../results/rejection/Broom/rN=1000_tol=0.95_TSS_lower_a/pred_mat.png G
 raphic file (type png)
 <use ../../results/rejection/Broom/rN=1000_tol=0.95_TSS_lower_a/pred_mat.png>
 Package pdftex.def Info: ../../results/rejection/Broom/rN=1000_tol=0.95_TSS_low
-er_a/pred_mat.png  used on input line 362.
+er_a/pred_mat.png  used on input line 365.
 (pdftex.def)             Requested size: 301.05075pt x 418.12604pt.
 [8pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) 
 has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.368 
+l.371 
        <./fig/Broadstone_Stream_size_agg_pred_mat.png>]
 <../../results/rejection/Capinteria/rN=1000_tol=0.85_TSS_lower_a/pred_mat.png, 
 id=86, 5420.25pt x 7528.125pt>
@@ -912,28 +912,28 @@ png Graphic file (type png)
 <use ../../results/rejection/Capinteria/rN=1000_tol=0.85_TSS_lower_a/pred_mat.p
 ng>
 Package pdftex.def Info: ../../results/rejection/Capinteria/rN=1000_tol=0.85_TS
-S_lower_a/pred_mat.png  used on input line 371.
+S_lower_a/pred_mat.png  used on input line 374.
 (pdftex.def)             Requested size: 301.05075pt x 418.12604pt.
 [9pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) 
 has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.377 
+l.380 
        <../../results/rejection/Broom/rN=1000_tol=0.95_TSS_lower_a/pred_mat.png
 >]
 <fig/Caricaie_Lakes_pred_mat.png, id=93, 5420.25pt x 7528.125pt>
 File: fig/Caricaie_Lakes_pred_mat.png Graphic file (type png)
 <use fig/Caricaie_Lakes_pred_mat.png>
 Package pdftex.def Info: fig/Caricaie_Lakes_pred_mat.png  used on input line 38
-0.
+3.
 (pdftex.def)             Requested size: 301.05075pt x 418.12604pt.
 [10pdfTeX warning (ext4): destination with the same identifier (name{figure.6})
  has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.386 
+l.389 
        <../../results/rejection/Capinteria/rN=1000_tol=0.85_TSS_lower_a/pred_ma
 t.png>]
 <../../results/rejection/Grasslands/rN=1000_tol=0.95_TSS_lower_a/pred_mat.png, 
@@ -943,32 +943,32 @@ png Graphic file (type png)
 <use ../../results/rejection/Grasslands/rN=1000_tol=0.95_TSS_lower_a/pred_mat.p
 ng>
 Package pdftex.def Info: ../../results/rejection/Grasslands/rN=1000_tol=0.95_TS
-S_lower_a/pred_mat.png  used on input line 389.
+S_lower_a/pred_mat.png  used on input line 392.
 (pdftex.def)             Requested size: 301.05075pt x 418.12604pt.
 [11pdfTeX warning (ext4): destination with the same identifier (name{figure.7})
  has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.395 
+l.398 
        <./fig/Caricaie_Lakes_pred_mat.png>]
 <fig/Mill_Stream_pred_mat.png, id=107, 5420.25pt x 7528.125pt>
 File: fig/Mill_Stream_pred_mat.png Graphic file (type png)
 <use fig/Mill_Stream_pred_mat.png>
-Package pdftex.def Info: fig/Mill_Stream_pred_mat.png  used on input line 398.
+Package pdftex.def Info: fig/Mill_Stream_pred_mat.png  used on input line 401.
 (pdftex.def)             Requested size: 301.05075pt x 418.12604pt.
 [12pdfTeX warning (ext4): destination with the same identifier (name{figure.8})
  has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.404 
+l.407 
        <../../results/rejection/Grasslands/rN=1000_tol=0.95_TSS_lower_a/pred_ma
 t.png>]
 <fig/Skipwith_Pond_pred_mat.png, id=114, 5420.25pt x 7528.125pt>
 File: fig/Skipwith_Pond_pred_mat.png Graphic file (type png)
 <use fig/Skipwith_Pond_pred_mat.png>
-Package pdftex.def Info: fig/Skipwith_Pond_pred_mat.png  used on input line 407
+Package pdftex.def Info: fig/Skipwith_Pond_pred_mat.png  used on input line 410
 .
 (pdftex.def)             Requested size: 301.05075pt x 418.12604pt.
 [13pdfTeX warning (ext4): destination with the same identifier (name{figure.9})
@@ -976,24 +976,24 @@ Package pdftex.def Info: fig/Skipwith_Pond_pred_mat.png  used on input line 407
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.413 
+l.416 
        <./fig/Mill_Stream_pred_mat.png>]
 <fig/Small_Reef_pred_mat.png, id=122, 5420.25pt x 7528.125pt>
 File: fig/Small_Reef_pred_mat.png Graphic file (type png)
 <use fig/Small_Reef_pred_mat.png>
-Package pdftex.def Info: fig/Small_Reef_pred_mat.png  used on input line 416.
+Package pdftex.def Info: fig/Small_Reef_pred_mat.png  used on input line 419.
 (pdftex.def)             Requested size: 301.05075pt x 418.12604pt.
 [14pdfTeX warning (ext4): destination with the same identifier (name{figure.10}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.422 
+l.425 
        <./fig/Skipwith_Pond_pred_mat.png>]
 <fig/Tuesday_Lake_pred_mat.png, id=129, 5420.25pt x 7528.125pt>
 File: fig/Tuesday_Lake_pred_mat.png Graphic file (type png)
 <use fig/Tuesday_Lake_pred_mat.png>
-Package pdftex.def Info: fig/Tuesday_Lake_pred_mat.png  used on input line 425.
+Package pdftex.def Info: fig/Tuesday_Lake_pred_mat.png  used on input line 428.
 
 (pdftex.def)             Requested size: 301.05075pt x 418.12604pt.
 [15pdfTeX warning (ext4): destination with the same identifier (name{figure.11}
@@ -1001,7 +1001,7 @@ Package pdftex.def Info: fig/Tuesday_Lake_pred_mat.png  used on input line 425.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.431 
+l.434 
        <./fig/Small_Reef_pred_mat.png>]
 <../../results/rejection/Ythan/rN=1000_tol=0.9_TSS_lower_a/pred_mat.png, id=136
 , 5420.25pt x 7528.125pt>
@@ -1009,54 +1009,54 @@ File: ../../results/rejection/Ythan/rN=1000_tol=0.9_TSS_lower_a/pred_mat.png Gr
 aphic file (type png)
 <use ../../results/rejection/Ythan/rN=1000_tol=0.9_TSS_lower_a/pred_mat.png>
 Package pdftex.def Info: ../../results/rejection/Ythan/rN=1000_tol=0.9_TSS_lowe
-r_a/pred_mat.png  used on input line 434.
+r_a/pred_mat.png  used on input line 437.
 (pdftex.def)             Requested size: 301.05075pt x 418.12604pt.
 [16pdfTeX warning (ext4): destination with the same identifier (name{figure.12}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.440 
+l.443 
        <./fig/Tuesday_Lake_pred_mat.png>]
 <fig/Benguela_Pelagic_distribution.png, id=143, 2409.0pt x 2409.0pt>
 File: fig/Benguela_Pelagic_distribution.png Graphic file (type png)
 <use fig/Benguela_Pelagic_distribution.png>
 Package pdftex.def Info: fig/Benguela_Pelagic_distribution.png  used on input l
-ine 443.
+ine 446.
 (pdftex.def)             Requested size: 301.12427pt x 301.12427pt.
 [17pdfTeX warning (ext4): destination with the same identifier (name{figure.13}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.449 
+l.452 
        <../../results/rejection/Ythan/rN=1000_tol=0.9_TSS_lower_a/pred_mat.png>
 ]
 <fig/Broadstone_Stream_distribution.png, id=150, 2409.0pt x 2409.0pt>
 File: fig/Broadstone_Stream_distribution.png Graphic file (type png)
 <use fig/Broadstone_Stream_distribution.png>
 Package pdftex.def Info: fig/Broadstone_Stream_distribution.png  used on input 
-line 452.
+line 455.
 (pdftex.def)             Requested size: 301.12427pt x 301.12427pt.
 [18pdfTeX warning (ext4): destination with the same identifier (name{figure.14}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.458 
+l.461 
        <./fig/Benguela_Pelagic_distribution.png>]
 <fig/Broadstone_Stream_size_agg_distribution.png, id=157, 2409.0pt x 2409.0pt>
 File: fig/Broadstone_Stream_size_agg_distribution.png Graphic file (type png)
 <use fig/Broadstone_Stream_size_agg_distribution.png>
 Package pdftex.def Info: fig/Broadstone_Stream_size_agg_distribution.png  used 
-on input line 461.
+on input line 464.
 (pdftex.def)             Requested size: 301.12427pt x 301.12427pt.
 [19pdfTeX warning (ext4): destination with the same identifier (name{figure.15}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.467 
+l.470 
        <./fig/Broadstone_Stream_distribution.png>]
 <../../results/rejection/Broom/rN=1000_tol=0.95_TSS_lower_a/distribution.png, i
 d=165, 2409.0pt x 2409.0pt>
@@ -1065,14 +1065,14 @@ ng Graphic file (type png)
 <use ../../results/rejection/Broom/rN=1000_tol=0.95_TSS_lower_a/distribution.pn
 g>
 Package pdftex.def Info: ../../results/rejection/Broom/rN=1000_tol=0.95_TSS_low
-er_a/distribution.png  used on input line 470.
+er_a/distribution.png  used on input line 473.
 (pdftex.def)             Requested size: 301.12427pt x 301.12427pt.
 [20pdfTeX warning (ext4): destination with the same identifier (name{figure.16}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.476 
+l.479 
        <./fig/Broadstone_Stream_size_agg_distribution.png>]
 <../../results/rejection/Capinteria/rN=1000_tol=0.85_TSS_lower_a/distribution.p
 ng, id=172, 2409.0pt x 2409.0pt>
@@ -1081,28 +1081,28 @@ ion.png Graphic file (type png)
 <use ../../results/rejection/Capinteria/rN=1000_tol=0.85_TSS_lower_a/distributi
 on.png>
 Package pdftex.def Info: ../../results/rejection/Capinteria/rN=1000_tol=0.85_TS
-S_lower_a/distribution.png  used on input line 479.
+S_lower_a/distribution.png  used on input line 482.
 (pdftex.def)             Requested size: 301.12427pt x 301.12427pt.
 [21pdfTeX warning (ext4): destination with the same identifier (name{figure.17}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.485 
+l.488 
        <../../results/rejection/Broom/rN=1000_tol=0.95_TSS_lower_a/distribution
 .png>]
 <fig/Caricaie_Lakes_distribution.png, id=179, 2409.0pt x 2409.0pt>
 File: fig/Caricaie_Lakes_distribution.png Graphic file (type png)
 <use fig/Caricaie_Lakes_distribution.png>
 Package pdftex.def Info: fig/Caricaie_Lakes_distribution.png  used on input lin
-e 488.
+e 491.
 (pdftex.def)             Requested size: 301.12427pt x 301.12427pt.
 [22pdfTeX warning (ext4): destination with the same identifier (name{figure.18}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.494 
+l.497 
        <../../results/rejection/Capinteria/rN=1000_tol=0.85_TSS_lower_a/distrib
 ution.png>]
 <../../results/rejection/Grasslands/rN=1000_tol=0.95_TSS_lower_a/distribution.p
@@ -1112,67 +1112,67 @@ ion.png Graphic file (type png)
 <use ../../results/rejection/Grasslands/rN=1000_tol=0.95_TSS_lower_a/distributi
 on.png>
 Package pdftex.def Info: ../../results/rejection/Grasslands/rN=1000_tol=0.95_TS
-S_lower_a/distribution.png  used on input line 497.
+S_lower_a/distribution.png  used on input line 500.
 (pdftex.def)             Requested size: 301.12427pt x 301.12427pt.
 [23pdfTeX warning (ext4): destination with the same identifier (name{figure.19}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.503 
+l.506 
        <./fig/Caricaie_Lakes_distribution.png>]
 <fig/Mill_Stream_distribution.png, id=194, 2409.0pt x 2409.0pt>
 File: fig/Mill_Stream_distribution.png Graphic file (type png)
 <use fig/Mill_Stream_distribution.png>
 Package pdftex.def Info: fig/Mill_Stream_distribution.png  used on input line 5
-06.
+09.
 (pdftex.def)             Requested size: 301.12427pt x 301.12427pt.
 [24pdfTeX warning (ext4): destination with the same identifier (name{figure.20}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.512 
+l.515 
        <../../results/rejection/Grasslands/rN=1000_tol=0.95_TSS_lower_a/distrib
 ution.png>]
 <fig/Skipwith_Pond_distribution.png, id=201, 2409.0pt x 2409.0pt>
 File: fig/Skipwith_Pond_distribution.png Graphic file (type png)
 <use fig/Skipwith_Pond_distribution.png>
 Package pdftex.def Info: fig/Skipwith_Pond_distribution.png  used on input line
- 515.
+ 518.
 (pdftex.def)             Requested size: 301.12427pt x 301.12427pt.
 [25pdfTeX warning (ext4): destination with the same identifier (name{figure.21}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.521 
+l.524 
        <./fig/Mill_Stream_distribution.png>]
 <fig/Small_Reef_distribution.png, id=209, 2409.0pt x 2409.0pt>
 File: fig/Small_Reef_distribution.png Graphic file (type png)
 <use fig/Small_Reef_distribution.png>
 Package pdftex.def Info: fig/Small_Reef_distribution.png  used on input line 52
-4.
+7.
 (pdftex.def)             Requested size: 301.12427pt x 301.12427pt.
 [26pdfTeX warning (ext4): destination with the same identifier (name{figure.22}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.530 
+l.533 
        <./fig/Skipwith_Pond_distribution.png>]
 <fig/Tuesday_Lake_distribution.png, id=216, 2409.0pt x 2409.0pt>
 File: fig/Tuesday_Lake_distribution.png Graphic file (type png)
 <use fig/Tuesday_Lake_distribution.png>
 Package pdftex.def Info: fig/Tuesday_Lake_distribution.png  used on input line 
-533.
+536.
 (pdftex.def)             Requested size: 301.12427pt x 301.12427pt.
 [27pdfTeX warning (ext4): destination with the same identifier (name{figure.23}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.539 
+l.542 
        <./fig/Small_Reef_distribution.png>]
 <../../results/rejection/Ythan/rN=1000_tol=0.9_TSS_lower_a/distribution.png, id
 =223, 2409.0pt x 2409.0pt>
@@ -1181,14 +1181,14 @@ g Graphic file (type png)
 <use ../../results/rejection/Ythan/rN=1000_tol=0.9_TSS_lower_a/distribution.png
 >
 Package pdftex.def Info: ../../results/rejection/Ythan/rN=1000_tol=0.9_TSS_lowe
-r_a/distribution.png  used on input line 542.
+r_a/distribution.png  used on input line 545.
 (pdftex.def)             Requested size: 301.12427pt x 301.12427pt.
 [28pdfTeX warning (ext4): destination with the same identifier (name{figure.24}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.548 
+l.551 
        <./fig/Tuesday_Lake_distribution.png>]
 <../../results/misc/Benguela_Pelagic_comp_method.png, id=232, 2409.0pt x 2409.0
 pt>
@@ -1196,67 +1196,67 @@ File: ../../results/misc/Benguela_Pelagic_comp_method.png Graphic file (type pn
 g)
 <use ../../results/misc/Benguela_Pelagic_comp_method.png>
 Package pdftex.def Info: ../../results/misc/Benguela_Pelagic_comp_method.png  u
-sed on input line 566.
+sed on input line 569.
 (pdftex.def)             Requested size: 301.12427pt x 301.12427pt.
 [29pdfTeX warning (ext4): destination with the same identifier (name{figure.25}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.572 
+l.575 
        <../../results/rejection/Ythan/rN=1000_tol=0.9_TSS_lower_a/distribution.
 png>]
 <../../results/misc/par.png, id=243, 6022.5pt x 6022.5pt>
 File: ../../results/misc/par.png Graphic file (type png)
 <use ../../results/misc/par.png>
-Package pdftex.def Info: ../../results/misc/par.png  used on input line 575.
+Package pdftex.def Info: ../../results/misc/par.png  used on input line 578.
 (pdftex.def)             Requested size: 401.49289pt x 401.49289pt.
 [30pdfTeX warning (ext4): destination with the same identifier (name{figure.26}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.581 
+l.584 
        <../../results/misc/Benguela_Pelagic_comp_method.png>] [31pdfTeX warning
  (ext4): destination with the same identifier (name{figure.27}) has been alread
 y used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.594 
+l.597 
        <../../results/misc/par.png>]
-<../../results/misc/prior_a_selection_Benguela_Pelagic.png, id=257, 2027.575pt 
-x 1772.6225pt>
+<../../results/misc/prior_a_selection_Benguela_Pelagic.png, id=257, 2048.65375p
+t x 1772.6225pt>
 File: ../../results/misc/prior_a_selection_Benguela_Pelagic.png Graphic file (t
 ype png)
 <use ../../results/misc/prior_a_selection_Benguela_Pelagic.png>
 Package pdftex.def Info: ../../results/misc/prior_a_selection_Benguela_Pelagic.
-png  used on input line 608.
-(pdftex.def)             Requested size: 301.12212pt x 263.25824pt.
-<../../results/misc/par_correlation.png, id=258, 3011.25pt x 1806.75pt>
-File: ../../results/misc/par_correlation.png Graphic file (type png)
-<use ../../results/misc/par_correlation.png>
-Package pdftex.def Info: ../../results/misc/par_correlation.png  used on input 
-line 620.
-(pdftex.def)             Requested size: 501.84314pt x 301.10588pt.
-
-Overfull \hbox (32.08812pt too wide) in paragraph at lines 620--621
- [][] 
- []
-
+png  used on input line 613.
+(pdftex.def)             Requested size: 301.1266pt x 260.55345pt.
 [32pdfTeX warning (ext4): destination with the same identifier (name{figure.28}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.626 
-       <../../results/misc/prior_a_selection_Benguela_Pelagic.png>] [33pdfTeX w
-arning (ext4): destination with the same identifier (name{figure.29}) has been 
-already used, duplicate ignored
+l.631 
+       <../../results/misc/prior_a_selection_Benguela_Pelagic.png>]
+<../../results/misc/par_correlation.png, id=268, 3011.25pt x 1806.75pt>
+File: ../../results/misc/par_correlation.png Graphic file (type png)
+<use ../../results/misc/par_correlation.png>
+Package pdftex.def Info: ../../results/misc/par_correlation.png  used on input 
+line 634.
+(pdftex.def)             Requested size: 501.84314pt x 301.10588pt.
+
+Overfull \hbox (32.08812pt too wide) in paragraph at lines 634--635
+ [][] 
+ []
+
+[33pdfTeX warning (ext4): destination with the same identifier (name{figure.29}
+) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.631 \newgeometry{margin=1cm}
+l.645 \newgeometry{margin=1cm}
                                <../../results/misc/par_correlation.png>]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
@@ -1295,14 +1295,14 @@ has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.671 \end{landscape}
+l.685 \end{landscape}
                      ]
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 683.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 697.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for TS1+lmtt on input line 702
+LaTeX Font Info:    Try loading font information for TS1+lmtt on input line 716
 .
 (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/ts1lmtt.fd
 File: ts1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1312,25 +1312,27 @@ File: ts1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 
 
 ] [36] [37] [38] [39] [40] [41]
-<fig/par.png, id=342, 6022.5pt x 6022.5pt>
-File: fig/par.png Graphic file (type png)
-<use fig/par.png>
-Package pdftex.def Info: fig/par.png  used on input line 948.
-(pdftex.def)             Requested size: 501.84314pt x 501.84314pt.
-
-Overfull \hbox (32.08812pt too wide) in paragraph at lines 948--949
- [][] 
- []
-
-<../../manuscript/fig/r_SE_TSS_lower_a.png, id=343, 4148.49875pt x 3556.28625pt
+<../../manuscript/fig/r_SE_TSS_lower_a.png, id=342, 4148.49875pt x 3556.28625pt
 >
 File: ../../manuscript/fig/r_SE_TSS_lower_a.png Graphic file (type png)
 <use ../../manuscript/fig/r_SE_TSS_lower_a.png>
 Package pdftex.def Info: ../../manuscript/fig/r_SE_TSS_lower_a.png  used on inp
-ut line 957.
+ut line 962.
 (pdftex.def)             Requested size: 501.84964pt x 430.20886pt.
 
-Overfull \hbox (32.09462pt too wide) in paragraph at lines 957--958
+Overfull \hbox (32.09462pt too wide) in paragraph at lines 962--963
+ [][] 
+ []
+
+<../../manuscript/fig/r_SE_TSS_lower_a_v2.png, id=343, 4148.49875pt x 3556.2862
+5pt>
+File: ../../manuscript/fig/r_SE_TSS_lower_a_v2.png Graphic file (type png)
+<use ../../manuscript/fig/r_SE_TSS_lower_a_v2.png>
+Package pdftex.def Info: ../../manuscript/fig/r_SE_TSS_lower_a_v2.png  used on 
+input line 971.
+(pdftex.def)             Requested size: 501.84964pt x 430.20886pt.
+
+Overfull \hbox (32.09462pt too wide) in paragraph at lines 971--972
  [][] 
  []
 
@@ -1339,17 +1341,18 @@ Overfull \hbox (32.09462pt too wide) in paragraph at lines 957--958
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.963 
-       <./fig/par.png>]
-<../../manuscript/fig/r_SE_TSS_lower_a_v2.png, id=350, 4148.49875pt x 3556.2862
-5pt>
-File: ../../manuscript/fig/r_SE_TSS_lower_a_v2.png Graphic file (type png)
-<use ../../manuscript/fig/r_SE_TSS_lower_a_v2.png>
-Package pdftex.def Info: ../../manuscript/fig/r_SE_TSS_lower_a_v2.png  used on 
-input line 966.
-(pdftex.def)             Requested size: 501.84964pt x 430.20886pt.
+l.977 
+       <../../manuscript/fig/r_SE_TSS_lower_a.png>]
+<../../results/misc/plot_mse_str_prop_vs_mse_conn.png, id=349, 2048.65375pt x 1
+772.6225pt>
+File: ../../results/misc/plot_mse_str_prop_vs_mse_conn.png Graphic file (type p
+ng)
+<use ../../results/misc/plot_mse_str_prop_vs_mse_conn.png>
+Package pdftex.def Info: ../../results/misc/plot_mse_str_prop_vs_mse_conn.png  
+used on input line 980.
+(pdftex.def)             Requested size: 501.87767pt x 434.25575pt.
 
-Overfull \hbox (32.09462pt too wide) in paragraph at lines 966--967
+Overfull \hbox (32.12265pt too wide) in paragraph at lines 980--981
  [][] 
  []
 
@@ -1358,52 +1361,32 @@ Overfull \hbox (32.09462pt too wide) in paragraph at lines 966--967
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.972 
-       <../../manuscript/fig/r_SE_TSS_lower_a.png>]
-<../../results/misc/plot_mse_str_prop_vs_mse_conn.png, id=357, 2048.65375pt x 1
-772.6225pt>
-File: ../../results/misc/plot_mse_str_prop_vs_mse_conn.png Graphic file (type p
-ng)
-<use ../../results/misc/plot_mse_str_prop_vs_mse_conn.png>
-Package pdftex.def Info: ../../results/misc/plot_mse_str_prop_vs_mse_conn.png  
-used on input line 975.
-(pdftex.def)             Requested size: 501.87767pt x 434.25575pt.
-
-Overfull \hbox (32.12265pt too wide) in paragraph at lines 975--976
- [][] 
- []
-
-[44pdfTeX warning (ext4): destination with the same identifier (name{figure.32}
-) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.981 
-       <../../manuscript/fig/r_SE_TSS_lower_a_v2.png>] [45pdfTeX warning (ext4)
-: destination with the same identifier (name{figure.33}) has been already used,
+l.986 
+       <../../manuscript/fig/r_SE_TSS_lower_a_v2.png>] [44pdfTeX warning (ext4)
+: destination with the same identifier (name{figure.32}) has been already used,
  duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.998 
-       <../../results/misc/plot_mse_str_prop_vs_mse_conn.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1001.
-[46]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1001.
+l.1003 
+        <../../results/misc/plot_mse_str_prop_vs_mse_conn.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1006.
+[45]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1006.
 (./SI.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1001.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1001.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1006.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1006.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1001.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1006.
  ) 
 Here is how much of TeX's memory you used:
  14887 strings out of 492649
- 221842 string characters out of 6129622
- 332797 words of memory out of 5000000
- 18288 multiletter control sequences out of 15000+600000
- 63200 words of font info for 87 fonts, out of 8000000 for 9000
+ 221806 string characters out of 6129622
+ 332252 words of memory out of 5000000
+ 18282 multiletter control sequences out of 15000+600000
+ 63532 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  34i,9n,38p,1303b,475s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local
@@ -1426,10 +1409,10 @@ s/type1/public/lm/lmss8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/pub
 lic/lm/lmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lms
 y5.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></us
 r/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on SI.pdf (46 pages, 23224070 bytes).
+Output written on SI.pdf (45 pages, 22669492 bytes).
 PDF statistics:
- 559 PDF objects out of 1000 (max. 8388607)
- 423 compressed objects within 5 object streams
- 136 named destinations out of 1000 (max. 500000)
- 12662 words of extra memory for PDF output out of 14400 (max. 10000000)
+ 552 PDF objects out of 1000 (max. 8388607)
+ 419 compressed objects within 5 object streams
+ 134 named destinations out of 1000 (max. 500000)
+ 12657 words of extra memory for PDF output out of 14400 (max. 10000000)
 

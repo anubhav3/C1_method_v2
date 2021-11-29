@@ -212,7 +212,7 @@ plot_mse_str_prop_vs_mse_conn <- ggplot(SE_vs_TSS) +
   scale_shape_manual(name = "Food web", labels = fw_labs, values = shape) +
   scale_color_discrete(name = "Food web", labels = fw_labs) 
 
-ggsave(plot = plot_mse_str_prop_vs_mse_conn, filename = "results/misc/plot_mse_str_prop_vs_mse_conn.png")
+# ggsave(plot = plot_mse_str_prop_vs_mse_conn, filename = "results/misc/plot_mse_str_prop_vs_mse_conn.png")
 
 
 lin_mod <- lm(mean_SE ~ mean_SE_conn, data = SE_vs_TSS)

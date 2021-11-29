@@ -1,8 +1,8 @@
 ## Other parameters
 input_parameters <- function(){
-  return(data.frame(tol = 0.9,
-                                 N = 2500,
-                                 n_cores = 1))
+  return(data.frame(tol = 2,
+                                 N = 1e6,
+                                 n_cores = 5))
 }
 
 

@@ -221,4 +221,32 @@ Plot_dist_occ <- function(web){
 }
 
 
+Plot.matrix_ggplot <- function(pred_mat, title = ""){
   
+  web <- pred_mat
+  S <- length(web[,1])
+  
+  dimnames(web) <- list(1:S, 1:S)
+  consumer <- rep(1:S, each=S)
+  resource <- rep(1:S, S)
+  
+  web.list <- Matrix.to.list(web)
+  
+  dd_pred <- data.frame(consumer = as.numeric(web.list[,2]), resource = S+1-as.numeric(web.list[,1]))
+  
+  g1 <- ggplot(dd_pred) +
+    geom_segment(aes(x = 1, y = S, xend = S, yend = 1), lty = "dashed") +
+    geom_point(aes(x = consumer, y = resource), size = 1) +
+    theme_classic() +
+    theme(axis.line=element_blank(), axis.ticks = element_blank(), axis.text = element_blank(),
+          plot.margin = margin(1,1,1,1, "cm"), text = element_text(family="Times New Roman", size = 30)) +
+    scale_x_discrete(position = "top") +
+    xlab(expression(paste("Consumer"))) +
+    ylab(expression(paste("Resource"))) +
+    coord_cartesian(clip = "off") +
+    # labs(tag = "(a)") +
+    theme(plot.tag.position = c(0, 1), plot.title = element_text(size = 10), axis.title=element_text(size=10,face="bold")) +
+    ggtitle(title)
+  
+  return(g1)
+}  

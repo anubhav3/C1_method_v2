@@ -23,7 +23,7 @@ dd_ai %>%
   # filter(b %in% c(0.0)) %>%
   ggplot() +
   geom_point(aes(x = a, y = TSS, color = b)) +
-  geom_vline(xintercept = -10, color = "red") +
+  geom_vline(xintercept = -12, color = "red") +
   geom_vline(xintercept = 10, color = "red") +
   ylim(c(-1,1)) +
   xlim(c(-20,10)) +

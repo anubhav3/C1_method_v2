@@ -159,12 +159,12 @@ Krause et al. 2003; Lurgi, L'opez, and Montoya 2012; Morris, Sinclair,
 and Burwell 2015). The network of trophic interactions is often referred
 to as a food web. The food web structure can provide answers to key
 ecological questions: which species are more vulnerable to environmental
-changes such as temperature (Owen L. Petchey et al. 1999); how robust a
-food web is to extinctions (Dunne, Williams, and Martinez 2002); and how
-a food web reacts if the predators are removed (Knight et al. 2005)?
+changes such as temperature (Petchey et al. 1999); how robust a food web
+is to extinctions (Dunne, Williams, and Martinez 2002); and how a food
+web reacts if the predators are removed (Knight et al. 2005)?
 
 Trophic interactions information from multiple sources can be used to
-infer a food web, e.g.~gut contents (Peralta-Maraver, L'opez-Rodr'ıguez,
+infer a food web, e.g.~gut contents (Peralta-Maraver, López-Rodríguez,
 and de Figueroa 2016) and cannot be assigned with certainty to a
 specific prey item (Baker, Buckland, and Sheaves 2014). With stable
 isotope ratios of tissues, uncertainty may be due to factors such as
@@ -187,12 +187,12 @@ further advances in the field (Martinez et al. 1999).
 When interactions are difficult to observe, and hence well-documented
 food webs are not available, models which predict species interactions
 may provide a solution (Tamaddoni-Nezhad et al. 2013; Gravel et al.
-2013; Owen L. Petchey et al. 2008; Allesina, Alonso, and Pascual 2008a;
-Cohen, Newman, and Steele 1985). A food web model can be used to predict
-missing information about species interactions. For example, Owen L.
-Petchey et al. (2008) showed how a model of species interactions (and
-therefore food web structure) could be parameterised from data on the
-known presence and absence of trophic interactions. The model and its
+2013; Petchey et al. 2008; Allesina, Alonso, and Pascual 2008; Cohen,
+Newman, and Steele 1985). A food web model can be used to predict
+missing information about species interactions. For example, Petchey et
+al. (2008) showed how a model of species interactions (and therefore
+food web structure) could be parameterised from data on the known
+presence and absence of trophic interactions. The model and its
 parameter values encode the rules for occurrence or absence of species
 interactions to predict food web structure. Observed data may be used to
 select and parameterise the model. Tamaddoni-Nezhad et al. (2013) used
@@ -213,54 +213,55 @@ filling gaps in knowledge about species interactions, including
 predicting future changes in food web structure.
 
 The allometric diet breadth model (ADBM) was the first model able to
-predict food web connectance and structure (Beckerman, Petchey, and
-Warren 2006; Owen L. Petchey et al. 2008). It uses foraging theory,
-specifically the contingency model (MacArthur and Pianka 1966), to
-predict the diet of each potential consumer and thereby the food web
-structure (further details are in the Material and Methods section). The
-ADBM had variable success in explaining the structure of 15 different
-food webs, with the proportion of links correctly predicted ranging from
-5 \% to 65 \% (Table \ref{fig:tab_1}). The ADBM correctly predicted 65\%
-of the presence of links in the Coachella valley food web. The poorest
-prediction of presence of links was for the Grasslands food web with
-only 7\% of the presence of links correctly predicted. When trophic
-interactions were more strongly dependent on size, the model correctly
-predicted a greater proportion of links. Indeed, constructing a food web
-based only on body size (i.e.~ignoring taxonomy) resulted in almost
-twice the number of correctly predicted links, i.e.~83\%, in contrast to
-taxonomy (Woodward et al. 2010).
+predict food web connectance (i.e.~the number of trophic links) and
+structure (i.e.~the arrangement of those links) (Beckerman, Petchey, and
+Warren 2006; Petchey et al. 2008). Models such as the Cascade model
+require connectance as an input parameter whereas the ADBM does not
+(Cohen, Newman, and Steele 1985). It uses foraging theory, specifically
+the contingency model (MacArthur and Pianka 1966), to predict the diet
+of each potential consumer and thereby the food web structure (further
+details are in the Material and Methods section). Connectance is the
+number of realised trophic links divided by the total number of possible
+trophic links. The ADBM had variable success in explaining the structure
+of 15 different food webs, with the proportion of links correctly
+predicted ranging from 7 \% to 54 \% (Table \ref{fig:tab_1}). The ADBM
+correctly predicted 54\% of the presence of links in the Benguela
+Pelagic food web. The poorest prediction of presence of links was for
+the Grasslands food web with only 7\% of the presence of links correctly
+predicted. When trophic interactions were more strongly dependent on
+size, the model correctly predicted a greater proportion of links.
+Indeed, constructing a food web based only on body size (i.e.~ignoring
+taxonomy) resulted in almost twice the number of correctly predicted
+links, i.e.~83\%, in contrast to taxonomy (Woodward et al. 2010).
 
-Although Owen L. Petchey et al. (2008) demonstrated that foraging theory
-could predict food web structure, their implementation of the ADBM
-included at least two limitations. The parameterisation method provided
-estimates of the parameters with no uncertainty: a single set of
-parameter values that maximised the explanatory power was selected. In
-other words, the parameterisation method led to point estimates of the
-parameters that predicted a single food web structure (because the ADBM
-is purely deterministic). Moreover, the best predicted food web was not
-exactly the same as the observed one. In a sense then, the
-parameterisation method used in Owen L. Petchey et al. (2008) was akin
-to estimating the intercept and slope of a regression line, but not any
-uncertainty in those parameters. Given that uncertainty is an essential
-dimension in ecological models, and in predictions about the future
-state of ecological communities (Owen L. Petchey et al. 2015; Carpenter
-2016), this is an important limitation.
+Although Petchey et al. (2008) demonstrated that foraging theory could
+predict food web structure, their implementation of the ADBM included at
+least two limitations. The parameterisation method provided estimates of
+the parameters with no uncertainty: a single set of parameter values
+that maximised the explanatory power was selected. In other words, the
+parameterisation method led to point estimates of the parameters that
+predicted a single food web structure (because the ADBM is purely
+deterministic). Moreover, the best predicted food web was not exactly
+the same as the observed one. In a sense then, the parameterisation
+method used in Petchey et al. (2008) was akin to estimating the
+intercept and slope of a regression line, but not any uncertainty in
+those parameters. Given that uncertainty is an essential dimension in
+ecological models, and in predictions about the future state of
+ecological communities (Petchey et al. 2015; Carpenter 2016), this is an
+important limitation.
 
-The second limitation was in the estimation of the connectance of the
-food web, which is the number of realised trophic links divided by the
-total number of possible trophic links. Although the ADBM can in
-principle predict connectance, Owen L. Petchey et al. (2008) prevented
-the model from doing so. They set the value of relevant parameters in
-the model to instead ensure the predicted connectance was equal to the
-observed connectance. The ADBM was not therefore used to simultaneously
-predict connectance and structure of food webs. Moreover, fixing
-predicted connectance to be equal to observed connectance does not
-account for the possibility that the observed connectance was
-imperfectly measured. Indeed, if low effort was used to observe the
-trophic links in a community, the observed connectance are likely to be
-lower than if all trophic links were observed. Connectance is an
-important driver for the stability and dynamics of a food web (May 1972)
-and most of the structural properties of food webs co-vary with
+The second limitation was that the connectance of the predicted food web
+was not estimated. Although the ADBM can in principle estimate
+connectance, Petchey et al. (2008) prevented the model from doing so.
+They set the value of relevant parameters in the model to instead ensure
+the predicted connectance was equal to the observed connectance.
+Moreover, fixing predicted connectance to be equal to observed
+connectance does not account for the possibility that the observed
+connectance was imperfectly measured. Indeed, if low effort was used to
+observe the trophic links in a community, the observed connectance are
+likely to be lower than if all trophic links were observed. Connectance
+is an important driver for the stability and dynamics of a food web (May
+1972) and most of the structural properties of food webs co-vary with
 connectance (Dunne, Williams, and Martinez 2002; Poisot and Gravel
 2014), thus this limitation must be addressed.
 
@@ -294,28 +295,28 @@ observed arrangement and number of links, respectively.
 \hline
 Common food web name (Original Publication) & Predation matrix source & Body size source & General ecosystem & Number of species & Connectance & Body size range (approximate) & Proportion of presence of links correct & Type of interactions\\
 \hline
-Benguela Pelagic (Yodzis 1998) & Brose et al. (2008) & Brose et al. (2008) & Marine & 30 & 0.21 & $10^{-8}$ to $10^6$ & 0.54 & Predation\\
+Benguela Pelagic (Yodzis 1998) & Brose et al. (2005) & Brose et al. (2005) & Marine & 30 & 0.21 & $10^{-8}$ to $10^6$ & 0.54 & Predation\\
 \hline
 Broadstone Stream (taxonomic aggregation) (Woodward and Hildrew 2001; Woodward
-et al. 2005) & Brose et al. (2008) & Brose et al. (2008) & Freshwater & 29 & 0.19 & $10^{-6}$ to $10^{-2}$ & 0.40 & Predation\\
+et al. 2005) & Brose et al. (2005) & Brose et al. (2005) & Freshwater & 29 & 0.19 & $10^{-6}$ to $10^{-2}$ & 0.40 & Predation\\
 \hline
-Broom (Memmott et al. 2000) & Brose et al. (2008) & Brose et al. (2008) & Terrestrial & 60 & 0.03 & $10^{-6}$ to $10^0$ & 0.09 & Herbivory, Parasitism, Predation, Pathogenic\\
+Broom (Memmott et al. 2000) & Brose et al. (2005) & Brose et al. (2005) & Terrestrial & 60 & 0.03 & $10^{-6}$ to $10^0$ & 0.09 & Herbivory, Parasitism, Predation, Pathogenic\\
 \hline
 Capinteria (Lafferty et al. 2006) & Hechinger et al. (2011) & Hechinger et al. (2011) & Marine (Salt Marsh) & 88 & 0.08 & $10^{-6}$ to $10^4$ & 0.33 & Predator-parasite, Parasite-parasite\\
 \hline
-Caricaie Lakes (Cattin et al. 2004) & Brose et al. (2008) & Brose et al. (2008) & Freshwater & 158 & 0.05 & $10^{-5}$ to $10^5$ & 0.13 & Predation, Parasitism\\
+Caricaie Lakes (Cattin et al. 2004) & Brose et al. (2005) & Brose et al. (2005) & Freshwater & 158 & 0.05 & $10^{-5}$ to $10^5$ & 0.13 & Predation, Parasitism\\
 \hline
-Grasslands (Dawah et al. 1995) & Brose et al. (2008) & Brose et al. (2008) & Terrestrial & 65 & 0.03 & $10^{-3}$ to $10^{-2}$ & 0.07 & Herbivory, Parasitism\\
+Grasslands (Dawah et al. 1995) & Brose et al. (2005) & Brose et al. (2005) & Terrestrial & 65 & 0.03 & $10^{-3}$ to $10^{-2}$ & 0.07 & Herbivory, Parasitism\\
 \hline
-Mill Stream (Ledger, Edwards, Woodward unpublished) & Brose et al. (2008) & Brose et al. (2008) & Freshwater & 80 & 0.06 & $10^{-6}$ to $10^{-2}$ & 0.36 & Herbivory, Predation\\
+Mill Stream (Ledger, Edwards, Woodward unpublished) & Brose et al. (2005) & Brose et al. (2005) & Freshwater & 80 & 0.06 & $10^{-6}$ to $10^{-2}$ & 0.36 & Herbivory, Predation\\
 \hline
-Skipwith Pond (Warren 1989) & Brose et al. (2008) & Brose et al. (2008) & Freshwater & 71 & 0.07 & $10^{-4}$ to $10^{-1}$ & 0.14 & Predation\\
+Skipwith Pond (Warren 1989) & Brose et al. (2005) & Brose et al. (2005) & Freshwater & 71 & 0.07 & $10^{-4}$ to $10^{-1}$ & 0.14 & Predation\\
 \hline
 Small Reef (Opitz 1996 Table 8.6.2) & Alyssa R. Cirtwill and Anna Eklöf (2018) & Alyssa R. Cirtwill and Anna Eklöf (2018) & Marine (Reef) & 239 & 0.06 & $10^{-11}$ to $10^5$ & 0.30 & Predation, Herbivory\\
 \hline
-Tuesday Lake (Jonsson et al. 2005) & Brose et al. (2008) & Brose et al. (2008) & Freshwater & 73 & 0.08 & $10^{-11}$ to $10^3$ & 0.46 & Predation\\
+Tuesday Lake (Jonsson et al. 2005) & Brose et al. (2005) & Brose et al. (2005) & Freshwater & 73 & 0.08 & $10^{-11}$ to $10^3$ & 0.46 & Predation\\
 \hline
-Ythan (Emmerson and Raffaelli 2004) & Alyssa R. Cirtwill and Anna Eklöf (2018) & Alyssa R. Cirtwill and Anna Eklöf (2018) & Marine (Estuarine) & 88 & 0.05 & $10^{-12}$ to $10^0$ & 0.22 & Predation\\
+Ythan (Emmerson and Raffaelli 2004) & Alyssa R. Cirtwill and Anna Eklöf (2018) & Alyssa R. Cirtwill and Anna Eklöf (2018) & Marine (Estuarine) & 85 & 0.04 & $10^{-6}$ to $10^4$ & 0.17 & Predation\\
 \hline
 Broadstone Stream (size aggregation) (Woodward
 et al. 2010) & Guy Woodward. (2021) & Guy Woodward. (2021) & Freshwater & 29 & 0.24 & $10^{-7}$ to $10^2$ & 0.83 & Predation\\
@@ -345,12 +346,14 @@ predictions across food webs.
 The allometric diet breadth model (ADBM) is based on optimal foraging
 theory, specifically the contingency foraging model (MacArthur and
 Pianka 1966). The ADBM predicts the set of prey species a consumer
-should feed upon to maximise its rate of energy intake (Owen L. Petchey
-et al. 2008) (hereafter referred as PBRW study). The species in this set
-are assumed to have the trophic link with the predator. To make these
+should feed upon to maximise its rate of energy intake (Petchey et al.
+2008) (hereafter referred as PBRW study). The species in this set are
+assumed to have the trophic link with the predator. To make these
 predictions, the model assumes that a foraging predator is in one of two
-exclusive states: searching for prey or handling a prey item. The model
-requires four variables for each potential predator-prey interaction:
+exclusive states: searching for prey or handling a prey item. The
+notation used below corresponds to that of (Petchey et al. 2008). The
+model requires four variables for each potential predator-prey
+interaction:
 
 \begin{itemize}
 \tightlist
@@ -385,6 +388,11 @@ food web. This is akin to choosing values of slope and intercept of a
 linear regression that maximises the fit of the regression line to the
 observed data.
 
+Please note that in the notation of the allometric exponents ( \(a_i\),
+\(a_j\) ), the \(i\) and \(j\) refer to the exponent for the prey mass
+and predator mass respectively, i.e.~the \(i\) and \(j\) refers to the
+role and are not species specific.
+
 Because some of the allometric constants and exponents are known, and
 because others are redundant with respect to each other (see Table
 \ref{fig:tab_2} for details), we estimate only the following parameters:
@@ -399,13 +407,13 @@ because others are redundant with respect to each other (see Table
 \hline
 Traits (Unit) & Allometric function & Parameters & Comments\\
 \hline
-Energy $(Joules)$ & $E_i = eM_i$ & $e$ & Arbitrary. No effect on structure. See SI S4\\
+Energy $(Joules)$ & $E_i = eM_i$ & $e$ & Arbitrary. No effect on structure*.\\
 \hline
-Abundance $(\text{individual}/m^2 \text{ or } \text{individual}/m^3)$ & $N_i = nM_i^{n_i}$ & $n$ & Connectance affected by the product $nah$. See SI S4\\
+Abundance $(\text{individual}/m^2 \text{ or } \text{individual}/m^3)$ & $N_i = nM_i^{n_i}$ & $n$ & Connectance affected by the product $nah$*.\\
 \hline
  &  & $n_i$ & Assumed value of $\frac{-3}{4}$ based on empirical data\\
 \hline
-Space Clearance Rate $(m^2/s \text{ or }  m^3/s)$ & $A_{ij} = aM_i^{a_i}M_j^{a_j}$ & $a$ & Connectance affected by the product $nah$. See SI S4\\
+Space Clearance Rate $(m^2/s \text{ or }  m^3/s)$ & $A_{ij} = aM_i^{a_i}M_j^{a_j}$ & $a$ & Connectance affected by the product $nah$*.\\
 \hline
  &  &  & Estimated using ABC\\
 \hline
@@ -413,10 +421,11 @@ Space Clearance Rate $(m^2/s \text{ or }  m^3/s)$ & $A_{ij} = aM_i^{a_i}M_j^{a_j
 \hline
  &  & $a_j$ & Estimated using ABC\\
 \hline
-Handling time $(s)$ & $H_{ij} = \frac{h}{b-\frac{M_i}{M_j}} \text{ if } \frac{M_i}{M_j} < b$ & $h$ & Connectance affected by the product $nah$. See SI S4\\
+Handling time $(s)$ & $H_{ij} = \frac{h}{b-\frac{M_i}{M_j}} \text{ if } \frac{M_i}{M_j} < b$ & $h$ & Connectance affected by the product $nah$*.\\
 \hline
  & $H_{ij} = \infty \text{ if } \frac{M_i}{M_j} \geq b$ & $b$ & Estimated using ABC\\
 \hline
+\multicolumn{4}{l}{\textsuperscript{*} See SI S5 for further explanation for why only four parameters were estimated.}\\
 \end{tabular}}
 \end{table}
 
@@ -431,8 +440,8 @@ for all potential consumer species.
 
 The observed food webs that we fit the ADBM to belong to marine,
 freshwater and terrestrial ecosystems (Table \ref{fig:tab_1}). The
-observed connectance of these food webs is from 0.02 to 0.34 and there
-are 19 to 158 species. The food webs contain primary producers,
+observed connectance of these food webs is from 0.03 to 0.24 and there
+are 29 to 239 species. The food webs contain primary producers,
 herbivores, carnivores, parasites, and parasitoids. They also contain
 various types of feeding interactions, including predation, herbivory,
 bacterivory, parasitism, pathogenic, and parasitoid.
@@ -472,7 +481,7 @@ values form an approximate posterior distribution for the model
 parameter. We implemented three ABC methods to parameterise the ADBM:
 namely rejection Monte Carlo (Fig. \ref{fig:fig_m1}), Markov chain Monte
 Carlo, and sequential Monte Carlo. The three methods produced very
-similar results (SI Figs S33-S34) and we therefore only include the
+similar results (SI Figs S26-S27) and we therefore only include the
 simplest (rejection) in this main text.
 
 \begin{figure}
@@ -497,23 +506,19 @@ Benguela Pelagic food web, the body sizes of species range from the
 order of \(10^{-8}\) gm to \(10^5\) gm. Hence, the range of
 prey-predator ratio was from the order of \(10^{-14}\) to \(10^{14}\).
 To take this into account, we took the prior of \(log_{10}(b)\) from a
-uniform distribution ranging from \(-15\) to \(15\). In the case of
-parameter \(a\), we chose the prior of \(log_{10}(a)\) to be a uniform
-distribution. However, the prior range varied between food webs. For
-example, the prior range for Benguela Pelagic was chosen to be -12 to
-10.
+uniform distribution ranging from \(-15\) to \(15\).
 
 For the prior of \(a\), we chose the prior of \(log_{10}(a)\) to be a
 uniform distribution. Since, the ADBM estimated connectance to be higher
 than the real connectance, lower values of \(a\) were favoured in the
 parameterisation. Hence, the upper bound of the prior was set to 10. To
 set the lower bound, we investigated how the true skill statistic varied
-with \(log_{10}(a)\) (e.g.~SI Fig. S35). We found that the TSS increased
+with \(log_{10}(a)\) (e.g.~SI Fig. S28). We found that the TSS increased
 with decreasing \(log_{10}(a)\) and then remained constant, for a
 constant value of \(log_{10}(b)\). We therefore decided to set the lower
 bound of \(log_{10}(a)\) such that the maximum variation of TSS was
 taken into account, while attempting to keep the range of prior as small
-as possible. In the case of Benguela Pelagic as shown in SI Fig. S35,
+as possible. In the case of Benguela Pelagic as shown in SI Fig. S28,
 the lower bound of \(log_{10}(a)\) was taken to be -12.
 
 \hypertarget{comparison-of-observed-and-predicted}{%
@@ -596,9 +601,9 @@ the distance threshold.
 
 To do this, we examined how the predicted connectance varied with the
 distance threshold. An example of this relationship is given in Fig.
-\ref{fig:fig_m2} for the Benguela Pelagic food web. We chose the minimum
-threshold value that gave a range of predicted connectance containing
-the observed connectance.
+\ref{fig:fig_m2} for the Benguela Pelagic food web and in SI. Fig. S1
+for other food webs. We chose the minimum threshold value that gave a
+range of predicted connectance containing the observed connectance.
 
 Furthermore, it is useful to note that in Fig. \ref{fig:fig_m2} there
 are no connectance values below a distance threshold value of less than
@@ -628,10 +633,13 @@ accepted, and thereby added to the posterior distribution of the
 parameter values, or it is rejected (based on if the distance 1 -
 \(TSS\) is less than or greater than the threshold distance, as
 mentioned above). This process is repeated until there are enough
-acceptances to give stable (approximate) posterior distributions. In
-addition, we used a kernel function that assigns weight to each set of
-parameter values, where the weight is inversely proportional to the
-distance (1 - \(TSS\)).
+acceptances to give stable (approximate) posterior distributions.
+Acceptance or rejection of a set of parameter values is probabilistic
+and depends on a weight assigned to that set of parameter values. This
+weight is given by a kernel function, where the weight is inversely
+proportional to the distance (1 - \(TSS\)). This weight is then used in
+a way that makes it the probability of the set of parameter values being
+accepted.
 
 In the upcoming section, we further detail the rejection ABC method.
 
@@ -679,9 +687,9 @@ for \(i = 1 \dots n = 1000\)
 
   \begin{itemize}
   \item
-    Assign a probability \(p_i\) to \(\theta_i\) as per the kernel
-    \(K\); \(p_i = \frac{K(d)}{K(0)}\), where \(d\) is the distance
-    evaluated in the previous step.
+    Assign a weight \(p_i\) to \(\theta_i\) as per the kernel \(K\);
+    \(p_i = \frac{K(d)}{K(0)}\), where \(d\) is the distance evaluated
+    in the previous step.
   \item
     Compute \(\alpha \sim U(0,1)\)
   \item
@@ -713,8 +721,8 @@ species, proportion of herbivores, mean omnivory, clustering
 coefficient, standard deviation of generality, standard deviation of
 vulnerability, diet similarity, mean path length and nestedness. We
 could not compute mean trophic level and maximum trophic level because
-the networks had lot of paths which were too many to compute for the R
-\emph{cheddar} package for all the food webs.
+the networks contained too many paths for the \emph{cheddar} package
+algorithm to compute.
 
 We investigated the performance of the ADBM parameterised with the ABC
 by computing standardised error of the food web properties, where the
@@ -730,9 +738,9 @@ values for all the food webs respectively.
 As an example of the model outcomes, we first present the results for
 the Benguela food web (e.g.~predicted food web structure, variation in
 predicted food web structure, and posterior parameter distributions). We
-chose this food web as it was well explained using the method of Petchey
-et al (2008) (hereafter referred as PBRW study). The results of the
-other food webs are included in the SI Figs S1-S32. We then compare
+chose this food web as it was well explained using the method of
+(Petchey et al. 2008) (hereafter referred as PBRW study). The results of
+the other food webs are included in the SI Figs S2-S25. We then compare
 model outcomes across all empirical food webs between the PBRW study and
 our current work. We compare the true skill statistic of the two
 approaches and compare some food web properties, such as proportions of
@@ -790,11 +798,11 @@ posterior range was the narrowest.
 
 \begin{figure}
 
-{\centering \includegraphics[width=500px]{fig/ABC_vs_point_estimates} 
+{\centering \includegraphics[width=500px]{../results/misc/ABC_vs_point_estimates} 
 
 }
 
-\caption{\label{fig:fig_r2} TSS (a), connectance (b) and ADBM parameters (c, d, e, f) computed using the ABC method compared with the corresponding point estimates from Petchey et al (2008). The red lines are the 95\% credible/prediction intervals and the black filled circles represent the corresponding means. The grey region represents the intervals of the prior distributions for $a_i$ and $a_j$. The grey lines represent the prior range of the parameters $a$ and $b$ in the $log_{10}$ scale. The prior range for the parameter $b$ extends above and below the y-axis limits for some food webs and so the values of the limits are shown on the plot. The dashed black lines are the 1:1 relationships for reference.}\label{fig:unnamed-chunk-7}
+\caption{\label{fig:fig_r2} TSS (a), connectance (b) and ADBM parameters (c, d, e, f) computed using the ABC method compared with the corresponding point estimates from Petchey et al. (2008). The red lines are the 95\% credible/prediction intervals and the black filled circles represent the corresponding means. The grey region represents the intervals of the prior distributions for $a_i$ and $a_j$. The grey lines represent the prior range of the parameters $a$ and $b$ in the $log_{10}$ scale. The prior range for the parameter $b$ extends above and below the y-axis limits for some food webs and so the values of the limits are shown on the plot. The dashed black lines are the 1:1 relationships for reference.}\label{fig:unnamed-chunk-7}
 \end{figure}
 
 The mean true skill statistic using the ABC approach was higher than the
@@ -813,9 +821,9 @@ the PBRW study.
 
 The marginal posterior of parameter \(b\) was more constrained than the
 other three allometric parameters, i.e.~the posterior range was the
-narrowest (SI Figs S17-S32). In most of the food webs, the parameter
-\(b\) had a unimodal distribution (SI Figs S17-S32). EcoWEB60 and
-Grasslands had a bimodal distribution and Sierra Lakes had three modes.
+narrowest (SI Figs S14-S25). In all of the food webs except Grasslands,
+the parameter \(b\) had a unimodal distribution (SI Figs S14-S25)
+whereas Grasslands had a bimodal distribution.
 
 The structural food web properties proportion of intermediate species,
 mean omnivory, clustering coefficient, sd of generality, sd of
@@ -827,7 +835,7 @@ lower (Fig. \ref{fig:fig_r4p5}(a, c, d)).
 
 \begin{figure}
 
-{\centering \includegraphics[width=500px]{fig/r_properties_ABC_vs_petchey_TSS_lower_a} 
+{\centering \includegraphics[width=500px]{../results/misc/r_properties_ABC_vs_petchey_TSS_lower_a} 
 
 }
 
@@ -858,34 +866,39 @@ study (Fig. \ref{fig:fig_r5}(b)).
 \end{figure}
 
 Within each food web, we found various relationships between the
-standardised error and true skill statistic (SI Figs S37 and S38). E.g.
-For Skipwith Pond food web (SI Fig. S37(l)), high values of TSS were
+standardised error and true skill statistic (SI Figs S30 and S31). E.g.
+For Skipwith Pond food web (SI Fig. S30(h)), high values of TSS were
 associated with high error, whereas the opposite was true for other food
-webs, such as Broadstone Stream (SI Fig. S37(b, p)). The other food webs
-showed more complex relationships.
+webs, such as Broadstone Stream (SI Fig. S30(b, l)). The other food webs
+showed more complex relationships. The shapes of the point scatters in
+SI Figs S30-31 are caused by the structural constraints of the ADBM
+(e.g.~it can only predict contiguous diets) interacting with the TSS and
+the connectance of the observed food web. These features prevent, for
+example, a predicted food web with very high connectance having high
+TSS. Similarly, a predicted food web with connectance equal to that of
+the highest TSS prediction tends to have low TSS.
 
 \hypertarget{discussion}{%
 \section{Discussion}\label{discussion}}
 
 The ABC parameterisation method employed here improves on the basic
-parameterisation methods applied in Owen L. Petchey et al. (2008)
-(PBRW). The ABC method provides uncertainty in parameter estimates, and
-thereby a range of predicted food webs (Fig. \ref{fig:fig_r2}(c-f)). It
-also allowed us to estimate parameters that were fixed by the PBRW
-study, and thereby also predicts connectance (Fig. \ref{fig:fig_r2}(b)).
-Including uncertainty and predicting connectance are significant
-advances in ADBM. They allow predictions in changes of food web
-structure caused by environmental changes that include uncertainty in
-the predicted food web structure and including uncertainty in such
-predictions is critical (Owen L. Petchey et al. 2015; Cressie et al.
-2009; Lindegren et al. 2010). A future development will be to partition
-the contribution of different sources of uncertainty such as incomplete
-sampling and model deficiencies to make improvements in the model with
-the aim of reducing uncertainty. Future research should investigate the
-functional and dynamical significance of the uncertainty in the
-predicted food web structure. Below we discuss some of the results of
-our study, and expand on these opportunities and priorities for future
-research.
+parameterisation methods applied in Petchey et al. (2008) (PBRW). The
+ABC method provides uncertainty in parameter estimates, and thereby a
+range of predicted food webs (Fig. \ref{fig:fig_r2}(c-f)). It also
+allowed us to estimate parameters that were fixed by the PBRW study, and
+thereby also predicts connectance (Fig. \ref{fig:fig_r2}(b)). Including
+uncertainty and predicting connectance are significant advances in ADBM.
+They allow predictions in changes of food web structure caused by
+environmental changes that include uncertainty in the predicted food web
+structure and including uncertainty in such predictions is critical
+(Petchey et al. 2015; Cressie et al. 2009; Lindegren et al. 2010). A
+future development will be to partition the contribution of different
+sources of uncertainty such as incomplete sampling and model
+deficiencies to make improvements in the model with the aim of reducing
+uncertainty. Future research should investigate the functional and
+dynamical significance of the uncertainty in the predicted food web
+structure. Below we discuss some of the results of our study, and expand
+on these opportunities and priorities for future research.
 
 In all cases, the predicted connectance was greater than the observed
 connectance (Fig. \ref{fig:fig_r2}(b)). Why did this occur? Firstly, it
@@ -893,10 +906,10 @@ is important to recognise that the ADBM (when using only body size as a
 trait) can only predict diets that are contiguous with respect to the
 size of prey. I.e. it cannot predict that a predator will consume prey
 of size 1 and 3, and not prey of size 2. Such patterns can however be
-predicted if a trait other than size and which is not perfectly
-correlated with size, influences foraging parameters (Owen L. Petchey et
-al. 2008; Allesina, Alonso, and Pascual 2008b; Williams and Martinez
-2000). Secondly, it is important to note that the observed diets were
+predicted if a trait in addition to size and which is not perfectly
+correlated with size, influences foraging parameters (Petchey et al.
+2008; Allesina, Alonso, and Pascual 2008; Stouffer, Camacho, and Amaral
+2006). Secondly, it is important to note that the observed diets were
 not contiguous when prey are ordered by their size. The estimation
 process will result in a greater number of predicted links than observed
 given these features, and the model attempts to maximise the coincidence
@@ -904,24 +917,24 @@ of predicted and observed link presence and absence (i.e.~the true skill
 statistic).
 
 These findings raise the question as to whether the model or the
-observed data is incorrect. We expect that the observed data does not
-contain some links that would occur in reality. This can be possible due
-to low sampling effort causing some links that do occur to be not
-observed. In this case, the model may correctly predict a link that was
-not yet observed as the data was incorrect. More intensive and more
-complete sampling of links in food webs has been recognised as
+observed data is incorrect. We expect that some of the links that do in
+reality occur are not present in the empirical datasets. This could be
+caused by low empirical sampling effort or rare prey-predator
+interactions even when sampling is extensive. In this case, a false
+positive may actually be a correctly predicted link. More intensive and
+more complete sampling of links in food webs has been recognised as
 important, due to the potential that a low sampling effort will
 influence the perceived food web structure (Martinez et al. 1999).
 
-We expect there are cases where the model incorrectly predicts a feeding
-link despite no possibility that such a link would occur in reality.
-This may be the case when a trait other than, or in addition to, prey
-size is influential. For example, a particular prey species may have a
-defensive trait that means it takes longer to consume it than an
-undefended prey of the same size. Incorporating traits other than body
-size in the ADBM would allow for discontiguous diets along the size
-axis. It is also possible that better estimate of parameters that could
-result from acquisition of new empirical data, could cause lower
+We expect there are also cases of real false positives, where the model
+predicts a feeding link despite no possibility that such a link could
+occur in reality. This may be the case when a trait other than, or in
+addition to, prey size is influential. For example, a particular prey
+species may have a defensive trait that means it takes longer to consume
+it than an undefended prey of the same size. Incorporating traits other
+than body size in the ADBM would allow for discontiguous diets along the
+size axis. It is also possible that better estimates of parameters that
+could result from acquisition of new empirical data, could cause lower
 estimated values of connectance. Furthermore, the ADBM's current form is
 a biology-only model; it does not include an observation process,
 although this could be included. The model would then be able to predict
@@ -940,8 +953,11 @@ the overestimation of connectance. This was confirmed by principal
 component analysis of variation in the food web structural properties
 which revealed a first PC axis representing on average 62\% of the
 overall variance, and this first axis was highly correlated with
-connectance, with an average Spearman correlation of 0.87 (see SI S7 for
-details).
+connectance, with an average Spearman correlation of 0.87 (see SI S8 for
+details). Furthermore, there was a strong positive relationship between
+the mean standardised error in structural properties of the food webs
+and mean standardised error in connectance of the food webs (SI Fig.
+S32).
 
 Our parameterisation approach was to maximise the true skill statistic
 (the coincidence of predicted and observed link presences, and the
@@ -960,9 +976,7 @@ whereas not observing one may be caused by various processes. That is to
 say, the observation of a single feeding interaction is sufficient to
 record the presence of a link, whereas this is not true for the absence
 of links: one observation of a predator not consuming a prey does not
-mean that it will never do so. Nevertheless, if we observe no
-interaction between two species during the sampling period, we conclude
-that there is an absence of link.
+mean that it will never do so.
 
 To improve our estimation procedure we could quantify the uncertainty in
 the recorded absence of links and include this uncertainty in the
@@ -1000,7 +1014,7 @@ results in a higher connectance).
 
 Information about who eats whom can be collected from multiple sources,
 such as gut contents of organisms, stable isotope composition of
-tissues, and experimentation (Peralta-Maraver, L'opez-Rodríguez, and de
+tissues, and experimentation (Peralta-Maraver, López-Rodríguez, and de
 Figueroa 2017; Layman et al. 2007; Warren 1989). Moreover,
 experimentation provides independent estimates of allometric foraging
 parameters, such as \(b\), \(a_i\), and \(a_j\) (Rall et al. 2012).
@@ -1042,21 +1056,29 @@ for proofreading the manuscript.
 \hypertarget{author-contributions}{%
 \section{Author contributions}\label{author-contributions}}
 
-Anubhav Gupta: Conceptualization (equal), formal analysis (lead),
-methodology (lead), software (lead), writing -- original draft
-preparation (lead), writing - review and editing (equal). Owen L.
+Anubhav Gupta: Conceptualization (equal), data curation (lead), formal
+analysis (lead), investigation (lead), methodology (lead), project
+administration (lead), software (lead), validation (lead), visualisation
+(lead), writing -- original draft preparation (lead), writing - review
+and editing (equal). Reinhard Furrer: Methodology (supporting). Owen L.
 Petchey: Conceptualization (equal), funding acquisition (lead),
-methodology (supporting), resources (lead), writing -- original draft
-preparation (supporting), writing - review and editing (equal).
+methodology (supporting), resources (lead), supervision (lead), writing
+-- original draft preparation (supporting), writing - review and editing
+(equal).
 
 \hypertarget{data-accessibility-statement}{%
 \section{Data Accessibility
 Statement}\label{data-accessibility-statement}}
 
-All the data used in this study was collected in other studies. We list
-those studies in Table \ref{fig:tab_1}. Some of those studies provide
-open access to their data and others do not. We have permission to use
-the data but do not have permission to distribute it.
+All the data used in this study was collected in other studies and is
+openly available. We list those studies and the open access source in
+Table \ref{fig:tab_1}. The code used for data curation is available in
+the repository \url{https://github.com/anubhav3/C1_data}. The code used
+for fitting the ADBM using the point parameterisation method in Petchey
+et al. (2008) is available in the repository
+\url{https://github.com/anubhav3/C1_ADBM_2008_fitting}. The complete
+code used in the analysis is available in the repository
+\url{https://github.com/anubhav3/C1_method_v2}.
 
 \hypertarget{references}{%
 \section*{References}\label{references}}
@@ -1064,15 +1086,10 @@ the data but do not have permission to distribute it.
 
 \hypertarget{refs}{}
 \begin{CSLReferences}{1}{0}
-\leavevmode\hypertarget{ref-allesinaGeneralModelFood2008}{}%
-Allesina, Stefano, David Alonso, and Mercedes Pascual. 2008a. {``A
-{General Model} for {Food Web Structure}.''} \emph{Science} 320 (5876):
-658--61. \url{https://doi.org/10.1126/science.1156269}.
-
 \leavevmode\hypertarget{ref-allesina2008}{}%
----------. 2008b. {``A General Model for Food Web Structure.''}
-\emph{Science} 320 (5876): 658--61.
-\url{https://doi.org/10.1126/science.1156269}.
+Allesina, Stefano, David Alonso, and Mercedes Pascual. 2008. {``A
+General Model for Food Web Structure.''} \emph{Science} 320 (5876):
+658--61. \url{https://doi.org/10.1126/science.1156269}.
 
 \leavevmode\hypertarget{ref-bakerFishGutContent2014}{}%
 Baker, Ronald, Amanda Buckland, and Marcus Sheaves. 2014. {``Fish Gut
@@ -1082,8 +1099,8 @@ Fisheries} 15 (1): 170--77. \url{https://doi.org/10.1111/faf.12026}.
 \leavevmode\hypertarget{ref-beckermanForagingBiologyPredicts2006}{}%
 Beckerman, A. P., O. L. Petchey, and P. H. Warren. 2006. {``Foraging
 Biology Predicts Food Web Complexity.''} \emph{Proceedings of the
-National Academy of Sciences of the United States of America} 103:
-13745--49. \url{://000240648300036}.
+National Academy of Sciences} 103 (37): 13745--49.
+\url{https://doi.org/10.1073/pnas.0603039103}.
 
 \leavevmode\hypertarget{ref-bergaminoFoodWebStructure2011}{}%
 Bergamino, Leandro, Diego Lercari, and Omar Defeo. 2011. {``Food Web
@@ -1108,9 +1125,10 @@ Richard Baltensperger, and Jean-Pierre Gabriel. 2004. {``Phylogenetic
 Constraints and Adaptation Explain Food-Web Structure.''} \emph{Nature}
 427 (6977, 6977): 835--39. \url{https://doi.org/10.1038/nature02327}.
 
-\leavevmode\hypertarget{ref-cohenJustProportionsFood1989}{}%
-Cohen, Joel E. 1989. {``Just Proportions in Food Webs.''} \emph{Nature}
-341 (6238, 6238): 104--5. \url{https://doi.org/10.1038/341104b0}.
+\leavevmode\hypertarget{ref-cirtwill2018feeding}{}%
+Cirtwill, Alyssa R, and Anna Eklöf. 2018. {``Feeding Environment and
+Other Traits Shape Species' Roles in Marine Food Webs.''} \emph{Ecology
+Letters} 21 (6): 875--84.
 
 \leavevmode\hypertarget{ref-cohenStochasticTheoryCommunity1985}{}%
 Cohen, Joel E., C. M. Newman, and John Hyslop Steele. 1985. {``A
@@ -1176,6 +1194,13 @@ Changes in the Food-Web Structure of Coastal Marine Communities Under
 Climate Change.''} \emph{Ecography} 39 (12): 1227--37.
 \url{https://doi.org/10.1111/ecog.01937}.
 
+\leavevmode\hypertarget{ref-hechinger2011food}{}%
+Hechinger, Ryan F, Kevin D Lafferty, John P McLaughlin, Brian L
+Fredensborg, Todd C Huspeni, Julio Lorda, Parwant K Sandhu, et al. 2011.
+{``Food Webs Including Parasites, Biomass, Body Sizes, and Life Stages
+for Three California/Baja California Estuaries: Ecological Archives
+E092-066.''} \emph{Ecology} 92 (3): 791--91.
+
 \leavevmode\hypertarget{ref-hobsonUsingStableIsotopes1994}{}%
 Hobson, Keith A., John F. Piatt, and Jay Pitocchelli. 1994. {``Using
 {Stable Isotopes} to {Determine Seabird Trophic Relationships}.''}
@@ -1201,10 +1226,6 @@ Jabot, Franck, and J'erôme Chave. 2009. {``Inferring the Parameters of
 the Neutral Theory of Biodiversity Using Phylogenetic Information and
 Implications for Tropical Forests.''} \emph{Ecology Letters} 12 (3):
 239--48. \url{https://doi.org/10.1111/j.1461-0248.2008.01280.x}.
-
-\leavevmode\hypertarget{ref-JonssonPhD}{}%
-Jonsson, Tomas. 1998. {``Food Webs and the Distribution of Body
-Sizes.''}
 
 \leavevmode\hypertarget{ref-jonssonFoodWebsBody2005}{}%
 Jonsson, Tomas, Joel E. Cohen, and Stephen R. Carpenter. 2005. {``Food
@@ -1306,16 +1327,21 @@ Food Web Data May Help to Suggest Sampling Strategies.''}
 \url{https://doi.org/10.1016/j.ecolmodel.2017.02.024}.
 
 \leavevmode\hypertarget{ref-peralta-maraverStructureDynamicsStability2016a}{}%
-Peralta-Maraver, I., M. J. L'opez-Rodr'ıguez, and J. M. Tierno de
+Peralta-Maraver, I., M. J. López-Rodríguez, and J. M. Tierno de
 Figueroa. 2016. {``Structure, Dynamics and Stability of a
 {Mediterranean} River Food Web.''} \emph{Marine and Freshwater Research}
 68 (3): 484--95. \url{https://doi.org/10.1071/MF15154}.
 
 \leavevmode\hypertarget{ref-peralta-maraverStructureDynamicsStability2017}{}%
-Peralta-Maraver, I., M. J. L'opez-Rodríguez, and J. M. Tierno de
-Figueroa. 2017. {``Structure, Dynamics and Stability of a
+---------. 2017. {``Structure, Dynamics and Stability of a
 {Mediterranean} River Food Web.''} \emph{Marine and Freshwater Research}
 68 (3): 484--95. \url{https://doi.org/10.1071/MF15154}.
+
+\leavevmode\hypertarget{ref-petchey2008size}{}%
+Petchey, Owen L., Andrew P. Beckerman, Jens O. Riede, and Philip H.
+Warren. 2008. {``Size, Foraging, and Food Web Structure.''}
+\emph{Proceedings of the National Academy of Sciences} 105: 4191--96.
+\url{https://doi.org/10.1073/pnas.0710672105}.
 
 \leavevmode\hypertarget{ref-petcheyEnvironmentalWarmingAlters1999}{}%
 Petchey, Owen L., P. Timon McPhearson, Timothy M. Casey, and Peter J.
@@ -1330,11 +1356,6 @@ Ecological Forecast Horizon, and Examples of Its Uses and
 Determinants.''} \emph{Ecology Letters} 18 (7): 597--611.
 \url{https://doi.org/10.1111/ele.12443}.
 
-\leavevmode\hypertarget{ref-petchey2008size}{}%
-Petchey, Owen L, Andrew P Beckerman, Jens O Riede, and Philip H Warren.
-2008. {``Size, Foraging, and Food Web Structure.''} \emph{Proceedings of
-the National Academy of Sciences} 105 (11): 4191--96.
-
 \leavevmode\hypertarget{ref-poisotWhenEcologicalNetwork2014}{}%
 Poisot, Timoth'ee, and Dominique Gravel. 2014. {``When Is an Ecological
 Network Complex? {Connectance} Drives Degree Distribution and Emerging
@@ -1345,11 +1366,6 @@ Network Properties.''} \emph{PeerJ} 2 (February): e251.
 Poisot, Timoth'ee, and Daniel B. Stouffer. 2016. {``How Ecological
 Networks Evolve.''} Preprint. {Ecology}.
 \url{https://doi.org/10.1101/071993}.
-
-\leavevmode\hypertarget{ref-polisComplexTrophicInteractions1991}{}%
-Polis, Gary A. 1991. {``Complex {Trophic Interactions} in {Deserts}: {An
-Empirical Critique} of {Food}-{Web Theory}.''} \emph{The American
-Naturalist} 138 (1): 123--55. \url{http://www.jstor.org/stable/2462536}.
 
 \leavevmode\hypertarget{ref-rallUniversalTemperatureBodymass2012}{}%
 Rall, B. C., U. Brose, M. Hartvig, G. Kalinkat, F. Schwarzmuller, O.
@@ -1363,6 +1379,12 @@ Shriner, Daniel, Yi Liu, David C. Nickle, and James I. Mullins. 2006.
 {``Evolution of {Intrahost Hiv} - 1 {Genetic Diversity During Chronic
 Infection}.''} \emph{Evolution} 60 (6): 1165--76.
 \url{https://doi.org/10.1111/j.0014-3820.2006.tb01195.x}.
+
+\leavevmode\hypertarget{ref-stoufferRobustMeasureFood2006}{}%
+Stouffer, Daniel B., Juan Camacho, and Lu'ıs A. Nunes Amaral. 2006. {``A
+Robust Measure of Food Web Intervality.''} \emph{Proceedings of the
+National Academy of Sciences} 103 (50): 19015--20.
+\url{https://doi.org/10.1073/pnas.0603844103}.
 
 \leavevmode\hypertarget{ref-tamaddoni-nezhadConstructionValidationFood2013}{}%
 Tamaddoni-Nezhad, Alireza, Ghazal Afroozi Milani, Alan Raybould, Stephen
@@ -1422,7 +1444,7 @@ Marine Mammals and Fisheries in the {Benguela} Ecosystem.''}
 
 \end{CSLReferences}
 
-\bibliographystyle{unsrt}
+\bibliographystyle{biblatex}
 \bibliography{bibliography.bib}
 
 

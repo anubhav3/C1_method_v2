@@ -13,7 +13,7 @@ tic("Time elapsed:")
 sourceDirectory("R", modifiedOnly=FALSE)
 
 #Remember to check these:
-fw_name <- "Caricaie Lakes"
+fw_name <- "Mill Stream"
 prior_dist_x <- prior_unif_x
 dist_ss <- dist_TSS
 desc <- "TSS_lower_a" 

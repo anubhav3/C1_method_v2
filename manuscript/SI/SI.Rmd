@@ -130,9 +130,9 @@ knitr::include_graphics("fig/plot_CI_vs_dist_all.png")
 
 # Figure legends
 
-Figure S1-S16: (a) Observed and predicted predation matrices of the given food web. Body size increases from left to right and top to bottom along the predation matrix. Black circles show where there were observed trophic links. The intensity of the pink circles shows the proportion of 1000 predicted food webs that had a trophic link between the corresponding species. This type of overlay is shown for two example predicted in panel (c). (b) The histogram of the number of times a link was predicted across the 1000 independently predicted food webs. The red bar shows the number of pairs of species for which a trophic link was never predicted. (c) Two predicted predation matrices correspond to the minimum and the maximum value of estimated $b$, and their sum.
+Figure S2-S13: (a) Observed and predicted predation matrices of the given food web. Body size increases from left to right and top to bottom along the predation matrix. Black circles show where there were observed trophic links. The intensity of the pink circles shows the proportion of 1000 predicted food webs that had a trophic link between the corresponding species. This type of overlay is shown for two example predicted in panel (c). (b) The histogram of the number of times a link was predicted across the 1000 independently predicted food webs. The red bar shows the number of pairs of species for which a trophic link was never predicted. (c) Two predicted predation matrices correspond to the minimum and the maximum value of estimated $b$, and their sum.
 
-Figure S17-S32: Marginal prior and marginal posterior distribution of the ADBM parameters for 16 food webs estimated using rejection ABC.
+Figure S14-S25: Marginal prior and marginal posterior distribution of the ADBM parameters for 12 food webs estimated using rejection ABC. The black vertical line in (d) corresponds to the value of $b$ (=2) above which the most profitable prey item is larger in respect to the predator size.
 
 ```{r fig_s0, echo=FALSE, fig.align='center', fig.pos="H", out.width="300px", fig.cap="Benguela Pelagic"}
 knitr::include_graphics("fig/Benguela_Pelagic_pred_mat.png")
@@ -240,7 +240,7 @@ We found consistent results among all three ABC methods (Fig. \ref{fig:fig_r66})
 knitr::include_graphics("../../results/misc/Benguela_Pelagic_comp_method.png")
 ```
 
-```{r fig_r66, echo=FALSE, fig.align='center', fig.pos="H", out.width="400px", fig.cap="\\label{fig:fig_r66}The 95\\% credible intervals of marginal posterior distributions of the ADBM parameters estimated from rejection ABC, MCMC ABC and SMC ABC for 16 food webs."}
+```{r fig_r66, echo=FALSE, fig.align='center', fig.pos="H", out.width="400px", fig.cap="\\label{fig:fig_r66}The 95\\% credible intervals of marginal posterior distributions of the ADBM parameters estimated from rejection ABC, MCMC ABC and SMC ABC for 12 food webs."}
 knitr::include_graphics("../../results/misc/par.png")
 ```
 
@@ -256,7 +256,7 @@ $\frac{\sum_{i=1}^k aM_i^{a_i}M_j^{a_j}nM_i^{n_i} eM_i}{1 + \sum_{i=1}^k aM_i^{a
 
 $\frac{\sum_{i=1}^k naeM_i^{a_i+n_i+1}M_j^{a_j}}{1 + \sum_{i=1}^k nahM_i^{a_i+n_i}M_j^{a_j}\frac{1}{b - \frac{M_i}{M_j}}}$
 
-Since, the maximum of the above expression is affected by the product $nah$, it is sufficient to estimate only one of the parameters from $nah$, so we estimated only $a$. Also, parameter $e$ does not affect the value of $k$ where the above expression has a maximum so value of $e$ can be arbitrary.
+Since, the maximum of the above expression is affected by the product $nah$, estimating all the three parameters would be redundant, which would result in strong correlation. Therefore, it is sufficient to estimate any single parameter from $nah$, so we estimated only $a$. We set $n = 1$ and $h = 1$. Also, parameter $e$ does not affect the value of $k$ at which the above expression has a maximum, so value of $e$ can be arbitrary.
 
 # Prior selection of a
 
@@ -267,7 +267,9 @@ knitr::include_graphics("../../results/misc/prior_a_selection_Benguela_Pelagic.p
 
 # Parameter correlations
 
-```{r fig_par_cor, echo=FALSE, fig.align='center', fig.pos="H", out.width="500px", fig.cap="\\label{fig:fig_par_cor}True skill statistics between the observed and predicted food web for Benguela Pelagic food web plotted against the attack rate scaling parameter $a$ which is in log scale. The red lines represent the boundaries for the prior range of $log_{10}(a)$."}
+A few of the parameters were strongly correlated (Fig. S29). E.g., 0.71 correlation coefficients between $a$ and $a_i$ in Broadstone stream (size aggregation) food web. However, 98% of parameter pairs showed less than 0.5 correlation coefficient and 82% were less than 0.25. The highest correlation, 0.71 was due to somewhat redundant effects of the two parameters ($a$ and $a_i$) on connectance, which is a mathematical feature of the model rather than anything of great biological significance.
+
+```{r fig_par_cor, echo=FALSE, fig.align='center', fig.pos="H", out.width="500px", fig.cap="\\label{fig:fig_par_cor}Correlations between parameter pairs of ADBM for 12 food webs."}
 knitr::include_graphics("../../results/misc/par_correlation.png")
 ```
 
@@ -374,16 +376,12 @@ smry_data <- readRDS(file = "../../results/misc/summary_SE_vs_TSS_lm.RDS")
 print(smry_data[[12]]$summary)
 ```
 
-```{r, echo=FALSE, fig.align='center', fig.pos="H", out.width="500px", fig.cap="\\label{fig:fig_par} The 95\\% credible intervals of marginal posterior distributions of the ADBM parameters estimated from rejection ABC, MCMC ABC and SMC ABC for 16 food webs." }
-knitr::include_graphics("fig/par.png")
-```
 
-
-```{r, echo=FALSE, fig.align='center', fig.pos="H", out.width="500px", fig.cap="\\label{fig:fig_r6} The mean standardised error of the food web properties predicted from the ADBM parameterised using rejection ABC plotted against the true skill statistic for each food webs. The solid lines are linear regressions (details in SI-S5)." }
+```{r, echo=FALSE, fig.align='center', fig.pos="H", out.width="500px", fig.cap="\\label{fig:fig_r6} The mean standardised error of the food web properties predicted from the ADBM parameterised using rejection ABC plotted against the true skill statistic for each food webs. The solid lines are linear regressions (details in SI-S9)." }
 knitr::include_graphics("../../manuscript/fig/r_SE_TSS_lower_a.png")
 ```
 
-```{r, echo=FALSE, fig.align='center', fig.pos="H", out.width="500px", fig.cap="\\label{fig:fig_r7}The mean standardised error of the food web properties predicted from the ADBM parameterised using rejection ABC plotted against the true skill statistic for each food webs. The solid lines are linear regressions (details in SI-S5). The limits of the horizontal and vertical axes have been set between 0 and 1." }
+```{r, echo=FALSE, fig.align='center', fig.pos="H", out.width="500px", fig.cap="\\label{fig:fig_r7}The mean standardised error of the food web properties predicted from the ADBM parameterised using rejection ABC plotted against the true skill statistic for each food webs. The solid lines are linear regressions (details in SI-S9). The limits of the horizontal and vertical axes have been set between 0 and 1." }
 knitr::include_graphics("../../manuscript/fig/r_SE_TSS_lower_a_v2.png")
 ```
 

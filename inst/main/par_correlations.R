@@ -62,7 +62,19 @@ plot_par_cor <- ggplot(df_v2) +
   ylim(c(-1,1)) +
   theme_classic() +
   xlab("Parameter pairs") +
-  scale_x_discrete(labels = c("log_a_ai" = "(log_a, ai)", "log_a_aj" = "(log_a, aj)", "log_a_log_b" = "(log_a, log_b)", 
-                              "ai_aj" = "(ai, aj)", "ai_log_b" = "(ai, log_b)", "aj_log_b" = "(aj, log_b)"))
+  scale_x_discrete(labels = c("log_a_ai" = parse(text = TeX('$(log_{10}a$, $a_i)$')), 
+                              "log_a_aj" = parse(text = TeX('$(log_{10}a$, $a_j)$')), 
+                              "log_a_log_b" = parse(text = TeX('$(log_{10}a$, $log_{10}b)$')), 
+                              "ai_aj" = parse(text = TeX('$(a_i$, $a_j)$')), 
+                              "ai_log_b" = parse(text = TeX('$(a_i$, $log_{10}b)$')), 
+                              "aj_log_b" = parse(text = TeX('$(a_j$, $log_{10}b)$'))))
 
-ggsave(filename = "results/misc/par_correlation.png", plot = plot_par_cor, width = 10, height = 6)
+# ggsave(filename = "results/misc/par_correlation.png", plot = plot_par_cor, width = 10, height = 6)
+
+
+######## Sorting parameter correlation values #######
+
+cor_val <- c(as.matrix(cor_par_df[1:5]))
+ncor <- length(cor_val)
+ncor_less_than_50_per <- length(which(cor_val < 0.5))/ncor
+ncor_less_than_25_per <- length(which(cor_val < 0.25))/ncor
